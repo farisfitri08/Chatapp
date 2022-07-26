@@ -2,6 +2,7 @@
   "name": "chat-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/farisfitri08/Chatapp.git",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -46,5 +47,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 }
