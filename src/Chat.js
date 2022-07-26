@@ -7,7 +7,7 @@ import moment from "moment";
 
 const username = prompt("what is your username");
 
-const socket = io("http://localhost:3000", {
+const socket = io("https://farisfitri08.github.io/Chatapp", {
   transports: ["websocket", "polling"]
 });
 
